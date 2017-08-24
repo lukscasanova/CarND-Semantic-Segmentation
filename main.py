@@ -176,8 +176,8 @@ def run():
         # TODO: Train NN using the train_nn function
         sess.run(tf.global_variables_initializer())
 
-        epochs = 2
-        batch_size = 2
+        epochs = 10
+        batch_size = 4
         # learning_rate = 0.0001
 
         # keep_prob = keep_prob.eval()
