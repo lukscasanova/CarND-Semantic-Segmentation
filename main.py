@@ -177,7 +177,7 @@ def run():
         sess.run(tf.global_variables_initializer())
 
         epochs = 5
-        batch_size = 1
+        batch_size = 4
         # learning_rate = 0.0001
 
         # keep_prob = keep_prob.eval()
